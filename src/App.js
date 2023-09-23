@@ -12,7 +12,6 @@ import SignUp from "./Pages/SignUp";
 import SignIn from "./Pages/SignIn";
 import PageNotFound from "./Pages/PageNotFound";
 import UserContext from "./context/UserContext";
-import Footer from "./layout/Footer";
 import Header from "./layout/Header";
 import firebaseConfig from "./Config/firebaseConfig"
 
@@ -33,7 +32,7 @@ return(
   <Route  path="*" component={PageNotFound}/>
   
   </Switch>
-  <Footer/>
+  
   </UserContext.Provider>
   </Router>
 )

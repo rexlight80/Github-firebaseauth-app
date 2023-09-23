@@ -10,7 +10,7 @@ const Header=()=>{
     const toggle=()=> setIsOpen(!isOpen)
    return(
         <Navbar color="info" light expand="md">
-        <NavbarBrand><Link to="/" className="text-white">LCO gitfire app</Link></NavbarBrand>
+        <NavbarBrand><Link to="/" className="text-white">github app</Link></NavbarBrand>
         <NavbarText className="text-white">{context.user?.email ? context.user.email:""}</NavbarText>
         <NavbarToggler onClick={toggle}/>
         <Collapse isOpen={isOpen} navbar>
